@@ -71,8 +71,7 @@ int main() {
     if (status == true) {
         cout << welcome[num];
     } else {
-        cout << "你 是駭客嗎?(帳號或密碼錯誤!)" << "\n";
+        cout << "你 是駭客嗎?(帳號或密碼錯誤!)\n\n";
         return main();
     }
 }
-
